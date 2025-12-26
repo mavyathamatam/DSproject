@@ -7,6 +7,8 @@ for num in s:
         first_largest=num
     elif num<first_largest and num>second_largest:
             second_largest=num
+            print("first_largest:",first_largest)
+            print("second_largest:",second_largest)
             
         
 
